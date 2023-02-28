@@ -1,4 +1,5 @@
 body {
+    font-family: Verdana;
     background-image: url('/img/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,11 +13,12 @@ body {
 
 .nav-items{
     color: white;
-    font-family: Verdana;
     display: flex;
 }   
 
 .logo{
+    text-decoration: none;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     line-height: 1.05;
@@ -75,11 +77,10 @@ body {
 }
 
 .green-font:hover{
-    text-decoration: underline; 
+    border-bottom: 1px solid #3cb878;
 }
 
 .nav-login{
-    font-family: Verdana;
     font-size: 14px;
     line-height: 1.5;
     padding-left: 24px;
@@ -87,7 +88,7 @@ body {
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.form-container{
+.form-wrapper{
     box-shadow: 0px 4px 18px 0 rgba(0, 0, 0, 0.52);
     background-color: white;
     border-radius: 10px;
@@ -100,16 +101,16 @@ body {
 }
 
 .form{
-    margin-left: 60px;
+    margin-left: 61px;
 }
 
 .signup-login{
     display: flex;
     margin-bottom: 15px;
+    height: 22px;
 }
 
 .signup{
-    font-family: Verdana;
     font-size: 20px;
     line-height: 1.05;
     color: #434343;
@@ -117,7 +118,6 @@ body {
 
 .login{
     margin-left: auto;
-    font-family: Verdana;
     font-size: 14px;
     line-height: 1.5;
     color: #3cb878;
@@ -127,7 +127,6 @@ body {
 .OAuth{
     display: flex;
     color: white;
-    font-family: Verdana;
     margin-bottom: 37px;
 }
 
@@ -180,7 +179,6 @@ hr {
 }
 
 .or{
-    font-family: Verdana;
     font-size: 14px;
     color: #848484;
     padding: 0 8px 0 8px;
@@ -194,7 +192,7 @@ hr {
     margin-top: 18px;
 }
 
-.form-input input{
+.input-fields{
     border:0.5 thin rgba(255, 255, 255, 0.5);
     height: 46px;
     width: 280px;
@@ -202,7 +200,7 @@ hr {
     cursor: pointer;
 }
 
-.form-input input:focus {
+.input-fields:focus {
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.21);
     border: none;
     outline: none;
@@ -213,7 +211,6 @@ hr {
 }
 
 .condition-text{
-    font-family: Verdana;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -226,7 +223,6 @@ button{
     border: none;
     padding: 17px 0;
     border-radius: 2px;
-    font-family: Verdana;
     font-size: 16px;
     line-height: 1.31;
     transition: 1s;
